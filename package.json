@@ -1,0 +1,27 @@
+{
+  "name": "qa-playwright-saucedemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report",
+    "trace": "playwright test --trace on"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mikoooo526/QA-Playwright-SauceDemo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mikoooo526/QA-Playwright-SauceDemo/issues"
+  },
+  "homepage": "https://github.com/Mikoooo526/QA-Playwright-SauceDemo#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.3.1"
+  }
+}
